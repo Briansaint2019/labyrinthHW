@@ -1,0 +1,52 @@
+html{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #FFDD0C;
+    /* background-image: url('./img/clipart2102224656.png') */
+}
+
+canvas{
+    display:flex;
+    height: 50%;
+    width: 64%;
+    border-radius: 3px;
+    border: 3px solid purple;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#reset{
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    height: 6%;
+    width: 12%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: purple;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    }
+
+    h1{
+        font-family: 'Spicy Rice', cursive;
+        font-size: 77px;
+
+    }
